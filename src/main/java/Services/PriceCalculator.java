@@ -6,5 +6,5 @@ import java.util.Map;
 
 public interface PriceCalculator {
 
-    public TotalPrice calcPrice(Map<String, Product> listOfProduct);
+    public double calcPrice(Map<String, Product> listOfProduct);
 }

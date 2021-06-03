@@ -8,12 +8,18 @@ import java.util.Map;
 public class TotalPrice implements PriceCalculator {
 
     @Override
-    public TotalPrice calcPrice(Map<String, Product> listOfProduct) {
+    public double calcPrice(Map<String, Product> listOfProduct) {
         double totalPrice=0;
         listOfProduct.forEach(
                 (productKey, productValue) -> {
                     productValue.getPricingModel().calculateProductsPrice(productValue);
                 }
         );
+
+        for (Map.Entry<String, Product> entry : listOfProduct.entrySet()) {
+            totalPrice += entry.getValue().getCurrentProductsPrice();
+        }
+
+        return totalPrice;
     }
 }
