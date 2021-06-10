@@ -1,6 +1,4 @@
-package Models.PricingModels;
-
-import Models.Product.Product;
+package Kata.PricingModels;
 
 import java.math.BigDecimal;
 

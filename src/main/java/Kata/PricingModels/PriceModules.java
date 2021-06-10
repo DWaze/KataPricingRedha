@@ -1,4 +1,4 @@
-package Models.PricingModels;
+package Kata.PricingModels;
 
 public enum PriceModules {
     BUNDLE_MODEL,

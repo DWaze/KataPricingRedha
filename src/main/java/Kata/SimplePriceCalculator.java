@@ -1,10 +1,9 @@
-package Services;
+package Kata;
 
-import Models.Product.Product;
+import Kata.Product.Product;
 
 import java.math.BigDecimal;
 import java.util.Map;
-import java.util.function.Function;
 
 public class SimplePriceCalculator implements PriceCalculator {
 

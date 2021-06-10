@@ -1,6 +1,6 @@
-package Models.PricingModels.WeightBased;
+package Kata.PricingModels.WeightBased;
 
-import Models.Product.WeightProduct;
+import Kata.Product.WeightProduct;
 
 import java.math.BigDecimal;
 

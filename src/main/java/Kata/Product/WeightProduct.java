@@ -1,7 +1,6 @@
-package Models.Product;
+package Kata.Product;
 
-import Models.PricingModels.PricingModel;
-import Models.PricingModels.UnitBased.UnitPricingModel;
+import Kata.PricingModels.WeightBased.WeightPricingModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,10 +12,10 @@ import java.math.BigDecimal;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UnitProduct extends Product {
-    private BigDecimal unitPrice;
-    private double prodQuantity;
-    private UnitPricingModel pricingModel;
+public class WeightProduct extends Product{
+    private BigDecimal weightPrice;
+    private double weightQuantity;
+    private WeightPricingModel pricingModel;
 
     @Override
     public BigDecimal getProductsPrice() {

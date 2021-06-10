@@ -1,6 +1,5 @@
-package Models.Product;
+package Kata.Product;
 
-import Models.PricingModels.PricingModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,9 +1,8 @@
-package Models.Cart;
+package Kata.Cart;
 
-import Models.PricingModels.WeightBased.WeightUnit;
-import Models.Product.Product;
-import Models.Product.UnitProduct;
-import Models.Product.WeightProduct;
+import Kata.Product.Product;
+import Kata.Product.UnitProduct;
+import Kata.Product.WeightProduct;
 import lombok.Getter;
 
 import java.util.HashMap;

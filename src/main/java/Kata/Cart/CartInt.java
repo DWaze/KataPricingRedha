@@ -1,8 +1,8 @@
-package Models.Cart;
+package Kata.Cart;
 
-import Models.Product.Product;
-import Models.Product.UnitProduct;
-import Models.Product.WeightProduct;
+import Kata.Product.Product;
+import Kata.Product.UnitProduct;
+import Kata.Product.WeightProduct;
 
 import java.util.Map;
 

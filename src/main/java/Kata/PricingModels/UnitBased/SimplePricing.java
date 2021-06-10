@@ -1,8 +1,6 @@
-package Models.PricingModels.UnitBased;
+package Kata.PricingModels.UnitBased;
 
-import Models.PricingModels.PricingModel;
-import Models.Product.Product;
-import Models.Product.UnitProduct;
+import Kata.Product.UnitProduct;
 
 import java.math.BigDecimal;
 

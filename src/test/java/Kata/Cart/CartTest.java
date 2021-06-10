@@ -1,19 +1,15 @@
-package Models.Cart;
+package Kata.Cart;
 
-import Models.PricingModels.UnitBased.BundlePricing;
-import Models.PricingModels.UnitBased.PercentPricing;
-import Models.PricingModels.UnitBased.SimplePricing;
-import Models.PricingModels.WeightBased.WeightPricing;
-import Models.PricingModels.WeightBased.WeightPricingModel;
-import Models.PricingModels.WeightBased.WeightUnit;
-import Models.Product.UnitProduct;
-import Models.Product.WeightProduct;
+import Kata.PricingModels.UnitBased.PercentPricing;
+import Kata.PricingModels.UnitBased.SimplePricing;
+import Kata.PricingModels.WeightBased.WeightPricing;
+import Kata.PricingModels.WeightBased.WeightUnit;
+import Kata.Product.UnitProduct;
+import Kata.Product.WeightProduct;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CartTest {
 

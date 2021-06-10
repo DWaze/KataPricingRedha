@@ -1,19 +1,19 @@
 package Services;
 
-import Models.Cart.Cart;
-import Models.PricingModels.UnitBased.PercentPricing;
-import Models.PricingModels.UnitBased.SimplePricing;
-import Models.PricingModels.WeightBased.WeightPricing;
-import Models.PricingModels.WeightBased.WeightUnit;
-import Models.Product.UnitProduct;
-import Models.Product.WeightProduct;
+import Kata.Cart.Cart;
+import Kata.PricingModels.UnitBased.PercentPricing;
+import Kata.PricingModels.UnitBased.SimplePricing;
+import Kata.PricingModels.WeightBased.WeightPricing;
+import Kata.PricingModels.WeightBased.WeightUnit;
+import Kata.Product.UnitProduct;
+import Kata.Product.WeightProduct;
+import Kata.SimplePriceCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class SimplePriceCalculatorTest {
 
