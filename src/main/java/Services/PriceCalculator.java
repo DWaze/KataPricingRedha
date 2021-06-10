@@ -1,10 +1,11 @@
 package Services;
 
-import Models.Product;
+import Models.Product.Product;
 
+import java.math.BigDecimal;
 import java.util.Map;
 
 public interface PriceCalculator {
 
-    public double calcPrice(Map<String, Product> listOfProduct);
+    BigDecimal calculatePrice(Map<String, Product> listOfProduct);
 }

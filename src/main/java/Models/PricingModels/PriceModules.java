@@ -1,4 +1,4 @@
-package Models;
+package Models.PricingModels;
 
 public enum PriceModules {
     BUNDLE_MODEL,

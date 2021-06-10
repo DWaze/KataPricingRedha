@@ -1,10 +1,10 @@
 package Models.PricingModels;
 
-import Models.Product;
+import Models.Product.Product;
 
 import java.math.BigDecimal;
 
 public interface PricingModel {
 
-    public double calculateProductsPrice(Product product);
+    BigDecimal calculateProductsPrice(Object product);
 }
